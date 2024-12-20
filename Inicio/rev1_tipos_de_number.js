@@ -15,6 +15,7 @@ console.log(media.toFixed(2)) // '2' representa a quantidade de casas decimais
 console.log(media.toString())
 console.log(media.toString(2)) // resultado em binário
 console.log(typeof media)
+console.log(typeof Number)
 
 //observações sobre números em Javascript:
 console.log()
@@ -24,3 +25,11 @@ console.log('show!' * 2) //não multiplica a string(ex: show! show!)
 console.log(0.1 + 0.7) // não tem uma precisão exata por conta de fazer uma execução mais rápida
 //console.log(10.toString()) um número só pode utilizar o 'toString' se estiver dentro de aspas " "
 console.log((10.345).toFixed(2)) //dentro do parênteses tem como chamar a função sem precisar das aspas " "
+
+//uso de Math
+console.log()
+
+const raio = 5.6
+const area = Math.PI * Math.pow(raio, 2)
+console.log(area)
+console.log(typeof Math)
